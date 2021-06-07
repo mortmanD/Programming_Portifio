@@ -85,6 +85,12 @@ ul {
     padding: 0px;
     text-align: left;
   }
+  .image1{
+    border: 1px;           
+    padding: 5px; 
+    width: 10px;
+    height: 20px;
+}
   h1,h2{
       text-align: center;
   }
