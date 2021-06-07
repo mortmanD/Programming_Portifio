@@ -71,10 +71,10 @@ ul {
       display: flex;
       width:50%;
   }
-  .column5{
+  .column5, .column6, .column4{
     float:left;
     display: flex;
-    width:50%
+    width:100%;
 }
   
   .cv{
