@@ -49,21 +49,45 @@ ul {
 }
 .column1 {
     float: left;
-    width: 50%;
+    width: 10%;
+    padding-right: 2px;
+    padding-top: 58px;
   }
   
   .column2{
-    float: right;
-    width: 50%;
+    float: left;
+    width: 45%;
   }
+  .column3{
+    float:right;
+    width: 45%;
+}
+.column3 li{
+    list-style-type: square;
+    align-items: center;
+    display: block important!;
+}
+.collist{
+    display: block;
+
+}
   .myimage{
         border: 1px;
         border-color:blue;
         border-image-slice: fill;        
         padding: 5px; 
         width: 100px;
+        height: 90px;
   }
-  
+  imgcaption {
+    color: red;
+    font-style: italic;    
+    padding: 0px;
+    text-align: left;
+  }
+  h1,h2{
+      text-align: center;
+  }
   
   
   @media screen and (max-width: 600px) {
