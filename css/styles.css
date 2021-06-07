@@ -144,6 +144,15 @@ imgcaption1{
 th, td {
     border: 1px solid black;
 }
+.column10,.column12,.colum13{
+    float: left;
+    width: 33.33%;
+    }
+    .footer{
+        background-color: skyblue;
+        margin-top: 50px;
+        text-align: center;
+    }
   
   
   @media screen and (max-width: 600px) {
