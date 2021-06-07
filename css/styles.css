@@ -1,3 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
 .navbar{
     background-color: khaki;
     height: 45px;
@@ -54,13 +60,10 @@ ul {
     padding-top: 58px;
   }
   
-  .column2{
-    float: left;
-    width: 45%;
-  }
+  
   .column3{
-    float:right;
-    width: 45%;
+    float:left;
+    width: 90%;
 }
 
 .collist{
@@ -80,15 +83,6 @@ ul {
     font-style: italic;    
     padding: 0px;
     text-align: left;
-  }
-  .column3 .image1{         
-        height: auto;
-        display:inline-flex;
-        max-width: 50px; 
-        height: 290px;
-        width:100px; 
-        padding-left: 10px;
-        
 }
 .bio{
     display:block;
@@ -96,6 +90,28 @@ ul {
   h1,h2{
       text-align: center;
   }
+  .image1{
+      display:flex;
+      float:left;
+      padding-left:45px; 
+      padding-top:45px; 
+      }
+      .pici{
+          padding-bottom:20px;  
+      }
+
+h2 title{
+    float right;
+}
+imgcaption1{
+    position:relative;
+    color: red;
+    font-style: italic;    
+    padding: 0px;
+    text-align: left;
+    
+
+}
   
   
   @media screen and (max-width: 600px) {
@@ -103,6 +119,6 @@ ul {
       width: 100%;
     }}
     @media screen and (max-width: 600px) {
-        .myimage {
+        .myimage,.image1 {
           display: none;
         }}
