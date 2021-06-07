@@ -47,19 +47,22 @@ ul {
     padding-right: 15px;
     text-decoration-style: dotted;
 }
-column {
+.column1 {
     float: left;
+    width: 50%;
   }
   
-  .left {
-    width: 25%;
+  .column2{
+    float: right;
+    width: 50%;
   }
-  
-  .right {
-    width: 75%;
+  .myimage{
+        border: 1px;
+        border-color:blue;
+        border-image-slice: fill;        
+        padding: 5px; 
+        width: 100px;
   }
-
-  
   
   
   
@@ -67,7 +70,7 @@ column {
     .column {
       width: 100%;
     }}
-    @media screen and (min-width: 600px) {
+    @media screen and (max-width: 600px) {
         .myimage {
           display: none;
         }}
