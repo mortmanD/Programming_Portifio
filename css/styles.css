@@ -62,13 +62,9 @@ ul {
     float:right;
     width: 45%;
 }
-.column3 li{
-    list-style-type: square;
-    align-items: center;
-    display: block important!;
-}
+
 .collist{
-    display: block;
+    display: flex;
 
 }
   .myimage{
@@ -85,11 +81,17 @@ ul {
     padding: 0px;
     text-align: left;
   }
-  .image1{
-    border: 1px;           
-    padding: 5px; 
-    width: 10px;
-    height: 20px;
+  .column3 .image1{         
+        height: auto;
+        display:inline-flex;
+        max-width: 50px; 
+        height: 290px;
+        width:100px; 
+        padding-left: 10px;
+        
+}
+.bio{
+    display:block;
 }
   h1,h2{
       text-align: center;
