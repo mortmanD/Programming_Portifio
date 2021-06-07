@@ -18,6 +18,12 @@ ul {
     overflow: hidden;
     
   }
+  ol {
+    list-style-type:decimal;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
   
   li {
     float: left;
@@ -58,12 +64,23 @@ ul {
     width: 10%;
     padding-right: 2px;
     padding-top: 58px;
+    
   }
-  
-  
-  .column3{
+  .column4{
+      float:left;
+      display: flex;
+      width:50%;
+  }
+  .column5{
     float:left;
-    width: 90%;
+    display: flex;
+    width:50%
+}
+  
+  .cv{
+    float:left;
+    width: 100%;
+    
 }
 
 .collist{
@@ -108,9 +125,25 @@ imgcaption1{
     color: red;
     font-style: italic;    
     padding: 0px;
-    text-align: left;
-    
+    text-align: left;   
+}
 
+.table{
+    border: lemonchiffon;
+    border-style: dotted;
+    width: 100%;
+    border-width: 10px;
+    background-color:goldenrod;   
+    padding-left: 25px;
+    text-align: center;
+    float: right;
+    outline-width: 10px;      
+    font-size: medium;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+th, td {
+    border: 1px solid black;
 }
   
   
