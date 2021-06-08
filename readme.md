@@ -6,7 +6,7 @@ Date:{08/06/2021}
 {A Programming Portifio made with html and css :The portifolio showcases my work as a developer, highlights the major projects undertaken with active links}
 ## Setup/Installation Requirements
 clone url: https://github.com/mortmanD/ programming_portfolio.git
-link to live demo: https://mortmand.github.io/programming_portfoli
+link to live demo: https://mortmand.github.io/programming_portfolio
 ## Technologies Used
 	HTML
 	CSS
